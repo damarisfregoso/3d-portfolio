@@ -13,15 +13,13 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  americanredcross,
+  generalassembly,
+  mcdonalds,
+  ups,
+  abm,
+  eyeshop,
+  quiztendouniverse,
   threejs,
 } from "../assets";
 
@@ -102,7 +100,7 @@ const experiences = [
   {
     title: "Software Engineer Fellow",
     company_name: "General Assembly",
-    icon: ,
+    icon: generalassembly,
     iconBg: "#383E56",
     date: "August 2023 - October 2023",
     points: [
@@ -113,7 +111,7 @@ const experiences = [
   {
     title: "Front End Web Developer Fellow",
     company_name: "General Assembly",
-    icon: ,
+    icon: generalassembly,
     iconBg: "#E6DEDD",
     date: "March 2023 - May 2023",
     points: [
@@ -124,7 +122,7 @@ const experiences = [
   {
     title: "Seasonal Support Driver",
     company_name: "United Parcel Service",
-    icon: ,
+    icon: ups,
     iconBg: "#383E56",
     date: "November 2020 - December 2023",
     points: [
@@ -136,7 +134,7 @@ const experiences = [
   {
     title: "Phlebotomy Technician",
     company_name: "American Red Cross",
-    icon: ,
+    icon: americanredcross,
     iconBg: "#E6DEDD",
     date: "March 2023 - November 2022",
     points: [
@@ -149,7 +147,7 @@ const experiences = [
   {
     title: "Lead Crew Trainee",
     company_name: "McDonald's",
-    icon: ,
+    icon: mcdonalds,
     iconBg: "#E6DEDD",
     date: "March 2023 - November 2022",
     points: [
@@ -175,23 +173,101 @@ const projects = [
   {
     name: "Affordable Building Maintenance",
     description:
-      "Web-based platform that allows users to outlining nine distinct offerings, enhancing client clarity and service uptake",
+      "A bilingual (English/Spanish) business website for Affordable Building Maintenance, showcasing a comprehensive services page, a project gallery displaying completed works, and ensuring full responsiveness to enhance client engagement and accessibility.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "html5",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+    ],
+    image: abm,
+    source_code_link: "https://github.com/damarisfregoso/a-b-m",
+  },
+  {
+    name: "Eye Shop",
+    description:
+    "Web application that allows users to browse, add to cart, and purchase makeup items, featuring secure user authentication and responsive design for a seamless shopping experience across various devices.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+      {
         name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "html5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "node",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: eyeshop,
+    source_code_link: "https://github.com/damarisfregoso/eye-shop",
+  },
+  {
+    name: "Quiztendo Universe",
+    description:
+      "A full-stack platform dedicated to Super Mario enthusiasts, enabling users to browse quizzes, take tests, view leaderboard scores, compare quiz results with others, and track their performance percentages across Super Mario-themed quizzes. Implemented with secure user authentication and a robust database backend to ensure data privacy and seamless quiz management.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "html5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "node",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: quiztendouniverse,
+    source_code_link: "https://github.com/damarisfregoso/quiztendo-universe",
   },
 ];
 
