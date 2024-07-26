@@ -97,6 +97,18 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Seasonal Support Driver",
+    company_name: "United Parcel Service",
+    icon: ups,
+    iconBg: "#383E56",
+    date: "November 2020 - December 2023",
+    points: [
+      "Streamlined delivery routes, resulting in a 15% increase in efficiency and reduced fuel costs.",
+      "Successfully delivered an average of 100 packages per day, demonstrating strong organizational skills and attention to detail.",
+      "Ensured timely and accurate deliveries, maintaining a 98% on-time delivery rate.",
+    ],
+  },
+  {
     title: "Software Engineer Fellow",
     company_name: "General Assembly",
     icon: generalassembly,
@@ -116,18 +128,6 @@ const experiences = [
     points: [
       "Completed a 60-hour program focused on front-end web development.",
       "Developed 4 independent front-end applications using HTML, CSS, JavaScript, and React, honing skills in responsive design and user experience.",
-    ],
-  },
-  {
-    title: "Seasonal Support Driver",
-    company_name: "United Parcel Service",
-    icon: ups,
-    iconBg: "#383E56",
-    date: "November 2020 - December 2023",
-    points: [
-      "Streamlined delivery routes, resulting in a 15% increase in efficiency and reduced fuel costs.",
-      "Successfully delivered an average of 100 packages per day, demonstrating strong organizational skills and attention to detail.",
-      "Ensured timely and accurate deliveries, maintaining a 98% on-time delivery rate.",
     ],
   },
   {
