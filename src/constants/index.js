@@ -19,6 +19,16 @@ import {
   eyeshop,
   quiztendouniverse,
   threejs,
+  sql,
+  jquery,
+  express,
+  bootstrap,
+  aws,
+  sql,
+  jquery,
+  django,
+  i18next,
+  python,
 } from "../assets";
 
 const navLinks = [
@@ -65,6 +75,14 @@ const technologies = [
     icon: javascript,
   },
   {
+    name: "Nodejs",
+    icon: nodejs,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
     name: "TypeScript",
     icon: typescript,
   },
@@ -73,12 +91,36 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Express",
+    icon: express,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Django",
+    icon: django,
+  },
+  {
+    name: "Jquery",
+    icon: jquery,
+  },
+  {
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "i18next",
+    icon: i18next,
+  },
+  {
+    name: "SQL",
+    icon: sql,
   },
   {
     name: "MongoDB",
