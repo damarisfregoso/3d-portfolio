@@ -26,7 +26,6 @@ const Ball = (props) => {
           map={decal}
         />
       </mesh>
-      Ball
     </Float>
   )
 }

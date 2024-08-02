@@ -24,8 +24,6 @@ import {
   express,
   bootstrap,
   aws,
-  sql,
-  jquery,
   django,
   i18next,
   python,
@@ -79,10 +77,6 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "Python",
-    icon: python,
-  },
-  {
     name: "TypeScript",
     icon: typescript,
   },
@@ -91,20 +85,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Express",
-    icon: express,
-  },
-  {
     name: "Bootstrap",
     icon: bootstrap,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
-  },
-  {
-    name: "Django",
-    icon: django,
   },
   {
     name: "Jquery",
@@ -234,6 +220,7 @@ const projects = [
     ],
     image: abm,
     source_code_link: "https://github.com/damarisfregoso/a-b-m",
+    web_code_link: "https://a-b-m-0b4e7891a98d.herokuapp.com/",
   },
   {
     name: "Eye Shop",
@@ -271,6 +258,7 @@ const projects = [
     ],
     image: eyeshop,
     source_code_link: "https://github.com/damarisfregoso/eye-shop",
+    web_code_link: "https://eye-shop-2024-2da831664c2c.herokuapp.com/",
   },
   {
     name: "Quiztendo Universe",
@@ -308,6 +296,7 @@ const projects = [
     ],
     image: quiztendouniverse,
     source_code_link: "https://github.com/damarisfregoso/quiztendo-universe",
+    web_code_link: "https://quiztendo-universe-c2211e0eb2f6.herokuapp.com/",
   },
 ];
 
