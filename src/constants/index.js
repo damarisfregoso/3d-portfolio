@@ -101,10 +101,6 @@ const technologies = [
     icon: aws,
   },
   {
-    name: "i18next",
-    icon: i18next,
-  },
-  {
     name: "SQL",
     icon: sql,
   },
