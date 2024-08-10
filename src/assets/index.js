@@ -36,6 +36,9 @@ import ups from "./company/ups.png";
 import abm from "./abm.png";
 import eyeshop from "./eyeshop.png";
 import quiztendouniverse from "./quiztendouniverse.png";
+import fuzzyfriends from "./fuzzyfriends.png";
+import jammytunes from "./jammytunes.png";
+import spaceman from "./spaceman.png";
 
 export {
   logo,
@@ -71,4 +74,7 @@ export {
   abm,
   eyeshop,
   quiztendouniverse,
+  fuzzyfriends,
+  jammytunes,
+  spaceman
 };

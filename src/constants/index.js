@@ -27,6 +27,9 @@ import {
   django,
   i18next,
   python,
+  fuzzyfriends,
+  jammytunes,
+  spaceman,
 } from "../assets";
 
 const navLinks = [
@@ -191,7 +194,7 @@ const projects = [
   {
     name: "Affordable Building Maintenance",
     description:
-      "A bilingual (English/Spanish) business website for Affordable Building Maintenance, showcasing a comprehensive services page, a project gallery displaying completed works, and ensuring full responsiveness to enhance client engagement and accessibility.",
+      "A bilingual (English/Spanish) business website featuring a detailed services page and a project gallery showcasing completed works. The fully responsive design enhances client engagement and accessibility across all devices.",
     tags: [
       {
         name: "react",
@@ -208,6 +211,10 @@ const projects = [
       {
         name: "css",
         color: "green-text-gradient",
+      },
+      {
+        name: "git",
+        color: "blue-text-gradient",
       },
     ],
     image: abm,
@@ -247,6 +254,10 @@ const projects = [
         name: "node",
         color: "pink-text-gradient",
       },
+      {
+        name: "git",
+        color: "blue-text-gradient",
+      },
     ],
     image: eyeshop,
     source_code_link: "https://github.com/damarisfregoso/eye-shop",
@@ -285,10 +296,108 @@ const projects = [
         name: "node",
         color: "pink-text-gradient",
       },
+      {
+        name: "git",
+        color: "blue-text-gradient",
+      },
     ],
     image: quiztendouniverse,
     source_code_link: "https://github.com/damarisfregoso/quiztendo-universe",
     web_code_link: "https://quiztendo-universe-c2211e0eb2f6.herokuapp.com/",
+  },
+  {
+    name: "FuzzyFriends",
+    description:
+      "A web platform designed for pet enthusiasts, where logged-in users can share photos of their beloved animals and interact through features like commenting and liking. The platform is built to foster an engaging community for pet lovers to connect and celebrate their furry friends.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "aws",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "html5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "postgreSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "git",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: fuzzyfriends,
+    source_code_link: "https://github.com/damarisfregoso/fuzzyfriends",
+    web_code_link: "https://fuzzyfriends-c9868e79d3bf.herokuapp.com/",
+  },
+  {
+    name: "Jammy Tunes",
+    description:
+      "A user-focused web application that empowers registered users to curate and manage personalized playlists by embedding links. Designed for a seamless experience, it allows music lovers to easily organize and share their favorite tracks.",
+    tags: [
+      {
+        name: "html5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "git",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: jammytunes,
+    source_code_link: "https://github.com/damarisfregoso/jammy-tunes",
+    web_code_link: "https://jammy-tunes-03284b6c64bc.herokuapp.com/",
+  },
+  {
+    name: "Spaceman",
+    description:
+      "A web-based game that challenges players to decipher a hidden word within a limited number of attempts. Users must use their word-guessing skills and strategy to reveal the mystery word before running out of guesses.",
+    tags: [
+      {
+        name: "html5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "git",
+        color: "green-text-gradient",
+      },
+    ],
+    image: spaceman,
+    source_code_link: "https://github.com/damarisfregoso/spaceman",
+    web_code_link: "https://damarisfregoso.github.io/spaceman/",
   },
 ];
 
