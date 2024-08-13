@@ -8,7 +8,10 @@ import { fadeIn, textVariant } from '../utils/motion';
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link, web_code_link}) => {
   return (
-    <div>
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      className="animated" // Apply the animation class here
+    >
       <Tilt 
         options={{
           max: 45,
@@ -61,23 +64,27 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
           ))}
         </div>
       </Tilt>
-    </div>
+    </motion.div>
   )
 }
 
 const Works = () => {
   return (
     <>
-      <div>
-      <p className={styles.sectionSubText}>My Work</p>
-      <h2 className={styles.sectionHeadText}>Projects.</h2>
-      </div>
+      <motion.div
+        variants={textVariant()}
+        className="animated" // Apply the animation class here
+      >
+        <p className={styles.sectionSubText}>My Work</p>
+        <h2 className={styles.sectionHeadText}>Projects.</h2>
+      </motion.div>
       <div className='w-full flex'>
-        <p
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
-        >
-          The following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos. While most of these are passion projects, they highlight my ability to solve complex problems, work with various technologies, and manage projects effectively. 
-        </p>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] animated"
+      >
+        The following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos. While most of these are passion projects, they highlight my ability to solve complex problems, work with various technologies, and manage projects effectively. 
+        </motion.p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
