@@ -22,7 +22,6 @@ import bootstrap from "./tech/bootstrap.png";
 import aws from "./tech/aws.png";
 import sql from "./tech/sql.png";
 import jquery from "./tech/jquery.png";
-import django from "./tech/django.png";
 import i18next from "./tech/i18next.png";
 import python from "./tech/python.png";
 
@@ -64,7 +63,6 @@ export {
   aws,
   sql,
   jquery,
-  django,
   i18next,
   python,
   americanredcross,

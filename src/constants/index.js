@@ -24,7 +24,6 @@ import {
   express,
   bootstrap,
   aws,
-  django,
   i18next,
   python,
   fuzzyfriends,
