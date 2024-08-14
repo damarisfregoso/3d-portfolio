@@ -5,7 +5,7 @@ import { github, web } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
-import '../../src/index.css';
+import '../index.css';
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link, web_code_link}) => {
   return (
