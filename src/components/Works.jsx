@@ -7,11 +7,15 @@ import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import '../index.css';
 
+const isMobile = window.innerWidth < 768;
+const MotionDiv = isMobile ? 'div' : motion.div;
+const MotionP = isMobile ? 'p' : motion.p;
+
 const ProjectCard = ({ index, name, description, tags, image, source_code_link, web_code_link}) => {
+
   return (
-    <motion.div
-      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-      className="animated" // Apply the animation class here
+    <MotionDiv
+    variants={!isMobile && fadeIn("up", "spring", index * 0.5, 0.75)}
     >
       <Tilt 
         options={{
@@ -65,27 +69,27 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
           ))}
         </div>
       </Tilt>
-    </motion.div>
+    </MotionDiv>
   )
 }
 
 const Works = () => {
+
   return (
     <>
-      <motion.div
-        variants={textVariant()}
-        className="animated" // Apply the animation class here
+      <MotionDiv
+        variants={!isMobile && textVariant()}
       >
         <p className={styles.sectionSubText}>My Work</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
-      </motion.div>
+      </MotionDiv>
       <div className='w-full flex'>
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] animated"
+      <MotionP
+          variants={!isMobile && fadeIn("", "", 0.1, 1)}
+        className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         The following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos. While most of these are passion projects, they highlight my ability to solve complex problems, work with various technologies, and manage projects effectively. 
-        </motion.p>
+        </MotionP>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
