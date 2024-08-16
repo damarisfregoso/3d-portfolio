@@ -218,21 +218,3 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
-
-@media (max-width: 768px) {
-  .animated {
-    /* No animation on mobile */
-  }
-}
-
-@media (min-width: 769px) {
-  .animated {
-    /* Apply your animation here */
-    transition: opacity 0.75s ease-out;
-    opacity: 0;
-  }
-
-  .animated.show {
-    opacity: 1;
-  }
-}

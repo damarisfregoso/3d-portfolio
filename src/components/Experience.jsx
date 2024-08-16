@@ -43,15 +43,18 @@ const ExperienceCard = ({ experience }) => (
 )
 
 const Experience = () => {
+  const isMobile = window.innerWidth < 768;
+  const MotionDiv = isMobile ? 'div' : motion.div;
+
   return (
     <>
-      <motion.div
-        variants={textVariant()}
+      <MotionDiv
+        variants={!isMobile && textVariant()}
         className="animated" // Apply the animation class here
       >
         <p className={styles.sectionSubText}>What I have done so far</p>
         <h2 className={styles.sectionHeadText}>Work Experience.</h2>
-      </motion.div>
+      </MotionDiv>
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>

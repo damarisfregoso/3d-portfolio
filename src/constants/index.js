@@ -133,7 +133,7 @@ const experiences = [
     title: "Software Engineer Fellow",
     company_name: "General Assembly",
     icon: generalassembly,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "August 2023 - October 2023",
     points: [
       "Completed an immersive 12-week program covering full-stack development, including computer science fundamentals, algorithms, and data structures.",
@@ -144,7 +144,7 @@ const experiences = [
     title: "Front End Web Developer Fellow",
     company_name: "General Assembly",
     icon: generalassembly,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "March 2023 - May 2023",
     points: [
       "Completed a 60-hour program focused on front-end web development.",
@@ -168,7 +168,7 @@ const experiences = [
     title: "Lead Crew Trainee",
     company_name: "McDonald's",
     icon: mcdonalds,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "March 2023 - November 2022",
     points: [
       "Managed daily operations in the absence of a manager, leading a team of 10+ employees and ensuring smooth workflow.",
